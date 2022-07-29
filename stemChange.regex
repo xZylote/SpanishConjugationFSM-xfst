@@ -1,0 +1,9 @@
+[g -> g u || _ ESuffix,,					! jugé -> jugué
+u -> u e || j _ g IndSubjYoTuElEllos,,		! jugo -> juego, juge -> jugue -> juegue
+e -> i e || _ z IndSubjYoTuElEllos,,		! empezo -> empiezo
+z -> c || _ ESuffix,,						! empieze -> empiece
+o -> u e || _ [v|l]+ IndSubjYoTuElEllos,,	! move -> mueve
+c -> q u || a _ ESuffix,,					! sacé -> saqué
+c e r í -> z c || _ ,,						! pareceríais -> parezcáis
+i -> y || e _ [o|ó|e|é],,					! creió -> creyó
+c -> z c || [e|u] _ [o|a|á]];				! pareco -> parezco

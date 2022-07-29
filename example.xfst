@@ -1,0 +1,14 @@
+clear;
+
+define IndSubjYoTuElEllos [[e .#.]|[e n .#.]|[e s .#.]|[a n .#.]|[o .#.]|[a s .#.]|[a .#.]];
+define ESuffix [[e .#.]|[e n .#.]|[e s .#.]|[e m o s .#.]|[é i s .#.]|[é n .#.]|[é .#.]];
+
+read regex < accents.regex;
+read regex < stemChange.regex;
+read lexc < lexicon.txt;
+
+compose net;
+compose net;
+
+echo Please apply a word or wordlist (e.g. 'apply down beber+Subjunctive+Imperfect+2Sg', 'apply up < testUp.wordlist')
+echo 

@@ -1,0 +1,188 @@
+Multichar_Symbols
++Indicative +Subjunctive +Conditional +Imperative +Infinitive +Gerund +Participle
++Present +Preterite +Imperfect +Future
++1Sg +2Sg +3Sg +1Pl +2Pl +3Pl +3Sg(usted) +3Pl(ustedes)
+
+LEXICON Root
+
+!---Regular Verbs---
+llamar:llam AR; 			! to call - rufen
+ayudar:ayud AR; 			! to help - helfen
+buscar:busc AR; 			! to search - suchen
+
+beber:beb ER; 				! to drink - trinken
+aprender:aprend ER; 		! to learn - lernen
+comer:com ER; 				! to eat - essen
+
+recibir:recib IR; 			! to receive - erhalten
+vivir:viv IR; 				! to live - leben
+abrir:abr IR; 				! to open - öffnen
+
+!---stem change---
+llegar:lleg AR; 			! to come - kommen
+agregar:agreg AR; 			! to add - hinuzfügen
+conjugar:conjug AR; 		! to conjugate - konjugieren
+
+sacar:sac AR; 				! to take - nehmen
+atacar:atac AR; 			! to attack - angreifen
+picar:pic AR; 				! to chop - hacken
+
+empezar:empez AR; 			! to begin - anfangen
+comenzar:comenz AR; 		! to begin - anfangen
+tropezar:trompez AR; 		! to trip - stolpern
+
+parecer:parec ER; 			! to look like - aussehen wie
+aparecer:aparec ER; 		! to appear - erscheinen
+crecer:crec ER; 			! to grow - wachsen
+
+creer:cre ER; 				! to believe - glauben
+poseer:pose ER; 			! to own - besitzen
+leer:le ER; 				! to read - lesen
+
+volver:volv ER; 			! to return - zurückkehren
+mover:mov ER; 				! to move - bewegen
+doler:dol ER; 				! to hurt - verletzen
+
+jugar:jug AR; 				! to play - spielen
+
+!---accent change---
+actuar:actu AR; 			! to act - handeln
+situar:situ AR; 			! to place - setzen/stellen/legen
+continuar:continu AR; 		! to continue - fortsetzen
+
+LEXICON AR ! In the next three LEXICONs we list all possible stems to which a person can be added for each ending
++Indicative+Present:0 PersonAR;
++Indicative+Preterite:0 PersonPreteriteAR;
++Indicative+Imperfect:ab Person;
++Indicative+Future:ar PersonFuturo;
++Subjunctive+Present:0 PersonSubjAR;
++Subjunctive+Imperfect:ar Person;
++Conditional:arí Person;
++Imperative:0 PersonImpAR;
+
+LEXICON ER
++Indicative+Present:0 PersonER;
++Indicative+Preterite:0 PersonPreteriteERIR;
++Indicative+Imperfect:í Person;
++Indicative+Future:er PersonFuturo;
++Subjunctive+Present:0 PersonSubjERIR;
++Subjunctive+Imperfect:ier Person;
++Conditional:erí Person;
++Imperative:0 PersonImpER;
+
+LEXICON IR
++Indicative+Present:0 PersonIR;
++Indicative+Preterite:0 PersonPreteriteERIR;
++Indicative+Imperfect:í Person;
++Indicative+Future:ir PersonFuturo;
++Subjunctive+Present:0 PersonSubjERIR;
++Subjunctive+Imperfect:ier Person;
++Conditional:irí Person;
++Imperative:0 PersonImpIR;
+
+LEXICON Person ! These are suffixes for the most commonly used endings that do not depend on verb ending because there is already an infix
+
++1Sg:a #;
++2Sg:as #;
++3Sg:a #;
++1Pl:amos #;
++2Pl:ais #;
++3Pl:an #;
+
+LEXICON PersonAR ! The next three LEXICONs are suffixes for verbs in present indicative
+
++1Sg:o #;
++2Sg:as #;
++3Sg:a #;
++1Pl:amos #;
++2Pl:áis #;
++3Pl:an #;
+
+LEXICON PersonER
+
++1Sg:o #;
++2Sg:es #;
++3Sg:e #;
++1Pl:emos #;
++2Pl:éis #;
++3Pl:en #;
+
+LEXICON PersonIR
+
++1Sg:o #;
++2Sg:es #;
++3Sg:e #;
++1Pl:imos #;
++2Pl:ís #;
++3Pl:en #;
+
+LEXICON PersonPreteriteAR ! The next two LEXICONs are suffixes for verbs in indicative preterite 
+
++1Sg:é #;
++2Sg:aste #;
++3Sg:ó #;
++1Pl:amos #;
++2Pl:asteis #;
++3Pl:aron #;
+
+LEXICON PersonPreteriteERIR ! Note that the endings for -er and -ir verbs are the same
+
++1Sg:í #;
++2Sg:iste #;
++3Sg:ió #;
++1Pl:imos #;
++2Pl:isteis #;
++3Pl:ieron #;
+
+LEXICON PersonSubjAR ! The next two LEXICONs are suffixes for verbs in subjunctive present 
+
++1Sg:e #;
++2Sg:es #;
++3Sg:e #;
++1Pl:emos #;
++2Pl:éis #;
++3Pl:en #;
+
+LEXICON PersonSubjERIR ! Note that the endings for -er and -ir verbs are the same
+
++1Sg:a #;
++2Sg:as #;
++3Sg:a #;
++1Pl:amos #;
++2Pl:áis #;
++3Pl:an #;
+
+LEXICON PersonFuturo ! These forms also stay the same regardless of ending
+
++1Sg:é #; 
++2Sg:ás #;
++3Sg:á #;
++1Pl:emos #;
++2Pl:éis #;
++3Pl:án #;
+
+LEXICON PersonImpAR ! The next three LEXICONs are suffixes for verbs in imperative
+
++2Sg:a #;
++3Sg(usted):e #;
++1Pl:emos #;
++2Pl:ad #;
++3Pl(ustedes):en #;
+
+LEXICON PersonImpER
+
++2Sg:e #;
++3Sg(usted):a #;
++1Pl:amos #;
++2Pl:ed #;
++3Pl(ustedes):an #;
+
+LEXICON PersonImpIR
+
++2Sg:e #;
++3Sg(usted):a #;
++1Pl:amos #;
++2Pl:id #;
++3Pl(ustedes):an #;
+
+END
